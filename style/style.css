@@ -1,0 +1,125 @@
+*{
+    font-family: Plus Jakarta Display;
+    padding: 0;
+    margin: 0;
+}
+
+.section-1{
+    background: hsla(136, 82%, 72%, 1);
+    background: linear-gradient(180deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+    background: -moz-linear-gradient(170deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+    background: -webkit-linear-gradient(190deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", endColorstr="#0F68A9", GradientType=1 );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section-1 .wrap .nav-bar .nav-icons .icon .wallet-logo{
+    height: 60px;
+}
+
+.section-1 .wrap .nav-bar .nav-icons{
+    border-bottom: 1px solid rgba(41, 39, 39, 0.251) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section-1 .wrap .nav-bar .nav-icons ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 18px;
+    transition: 0.2s ease-in-out;
+}
+
+.section-1 .wrap .nav-bar .nav-icons ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.section-1 .wrap .nav-bar .nav-icons ul li a:hover{
+    color: rgba(0, 0, 0, 0.612);
+}
+
+.section-1 .elements p{
+    color: rgb(39, 36, 36);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section-1 .elements{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+
+.section-1 .elements h1{
+    font-size: 90px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.748);
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+.section-1 .elements .buttons ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.section-1 .elements .buttons ul li a{
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+    padding: 15px 20px;
+    border: 2px solid rgb(21, 21, 68);
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.section-1 .elements .buttons{
+    margin-top: 45px;
+}
+
+.section-1 .elements .buttons a{
+    transition: 0.2s ease-in-out;
+}
+
+.section-1 .elements .buttons a:hover{
+    background-color: rgb(36, 198, 146);
+    border: 2px solid rgb(39, 184, 138);
+}
+
+.section-1 .elements .buttons .active{
+    background-color: rgb(39, 184, 138);
+    border: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+.section-1 .elements .buttons .active:hover{
+    background-color: rgb(36, 198, 146);
+}
+
+.section-1 .elements{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.section-1{
+    z-index: 1;
+}
+
+.img{
+    z-index: 0;
+    position: absolute;
+    top: 25%;
+    left: 56%;
+}
